@@ -1,0 +1,23 @@
+{
+  "name": "kswedberg",
+  "displayName": "kswedberg",
+  "description": "There is no accounting for taste",
+  "publisher": "kswedberg",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.37.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "kswedberg",
+        "uiTheme": "vs-dark",
+        "path": "./themes/kswedberg-color-theme.json"
+      }
+    ]
+  },
+  "license": "MIT"
+}
