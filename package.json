@@ -3,7 +3,7 @@
   "displayName": "kswedberg",
   "description": "There is no accounting for taste",
   "publisher": "kswedberg",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "engines": {
     "vscode": "^1.37.0"
   },
