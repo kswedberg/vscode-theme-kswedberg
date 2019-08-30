@@ -1,5 +1,5 @@
 # README
 
-This is a theme extension for kswedberg. There is no acounting for taste, apparently.
+This theme is an attempt to have dark UI features such as tabs, title bar, and file tree, while at the same time having a light-themed editor window.
 
-Real content may appear here in the future. Or not.
+There is no acounting for taste, as they say.

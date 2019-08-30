@@ -1,7 +1,7 @@
 {
   "name": "kswedberg",
-  "displayName": "kswedberg",
-  "description": "There is no accounting for taste",
+  "displayName": "Dark and Light",
+  "description": "An attempt to make a VS Code theme with light editor but dark UI features",
   "publisher": "kswedberg",
   "version": "0.1.0",
   "engines": {
