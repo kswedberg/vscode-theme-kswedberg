@@ -18,7 +18,7 @@
     "themes": [
       {
         "label": "kswedberg",
-        "uiTheme": "vs-dark",
+        "uiTheme": "vs",
         "path": "./themes/kswedberg-color-theme.json"
       }
     ]
