@@ -7,6 +7,10 @@
   "engines": {
     "vscode": "^1.37.0"
   },
+  "main": "./src/extension.js",
+  "scripts": {
+    "pub": "vsce package && vsce publish"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/kswedberg/vscode-theme-kswedberg"
@@ -14,11 +18,24 @@
   "categories": [
     "Themes"
   ],
+  "activationEvents": [
+    "*"
+  ],
   "contributes": {
+    "commands": [
+      {
+        "command": "extension.fix_cursor_color.enable",
+        "title": "Cursor Color Fix: Enable"
+      },
+      {
+        "command": "extension.fix_cursor_color.disable",
+        "title": "Cursor Color Fix: Disable"
+      }
+    ],
     "themes": [
       {
         "label": "kswedberg",
-        "uiTheme": "vs",
+        "uiTheme": "vs-dark",
         "path": "./themes/kswedberg-color-theme.json"
       }
     ]
