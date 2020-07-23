@@ -10,12 +10,13 @@ function askToRestart(msg) {
 
 function getActiveVersion() {
   var html = fs.readFileSync(WORKBENCH_INDEX_FILE, 'utf-8')
-  const match = html.match(/<!-- CURSOR-COLOR-FIX \[(.*?)\] -->/)
+  const match = html.match(/<!-- CURSOR-COLOR-FIX_BEGIN \[(.*?)\] -->/)
   return match ? match[1] : null
 }
 
 function getExtensionVersion() {
-  return vscode.extensions.getExtension('kswedberg.kswedberg').packageJSON.version
+  return vscode.extensions
+  .getExtension('kswedberg.kswedberg').packageJSON.version
 }
 
 module.exports = {
