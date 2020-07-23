@@ -1,7 +1,7 @@
 const fs = require('fs')
 const { askToRestart, getExtensionVersion } = require('./utils')
 const {
-  CSS_SELECTORS,
+  STYLE_RULES,
   WORKBENCH_INDEX_FILE,
   WORKBENCH_MAIN_JS_FILE
 } = require('./constants')
@@ -11,7 +11,7 @@ const {
 
 const patchFiles = () => {
   const version = getExtensionVersion()
-  const styles = `<style>${CSS_SELECTORS.join(',')}{cursor: text;}</style>`
+  const styles = `<style>${STYLE_RULES.join('')}</style>`
   let content = fs.readFileSync(WORKBENCH_INDEX_FILE, 'utf-8')
   content = content.replace(/<!-- CURSOR-COLOR-FIX_BEGIN .*? CURSOR-COLOR-FIX_END -->/, '')
   content = content.replace('</head>', `<!-- CURSOR-COLOR-FIX_BEGIN [${version}] -->${styles}<!-- CURSOR-COLOR-FIX_END --></head>`)
@@ -64,4 +64,4 @@ module.exports = {
   enable,
   update,
   disable,
-}
+};
