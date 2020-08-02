@@ -40,6 +40,7 @@
     "editorHoverWidget.foreground": "#343539",
     "editorIndentGuide.background": "#d3d4d5",
     "editorLineNumber.foreground": "#9d9d9f",
+    "editorRuler.foreground": "#eaeaeb",
     "editorSuggestWidget.background": "#eaeaeb",
     "editorSuggestWidget.border": "#dbdbdc",
     "editorSuggestWidget.selectedBackground": "#ffffff",

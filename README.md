@@ -17,6 +17,8 @@ You can click the gear icon in the warning popup and select "Don't Show Again."
 
 Many thanks to [Diego Curbelo](https://github.com/diegocurbelo) for his [Custom Pointer](https://github.com/diegocurbelo/vscode-custom-pointer) extension, which I modified to get the `Cursor Color Fix` feature working.
 
+![Theme Screenshot](./screenshot.png)
+
 ## Previously…
 
 Previously I had been treating it as a "light" theme and overriding activityBar, sideBar, titleBar, tab, statusBar, etc. because I didn't know how to change the cursor color. the "dark" theme rendered the cursor color almost invisible
