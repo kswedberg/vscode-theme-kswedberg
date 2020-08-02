@@ -18,6 +18,7 @@ const cursorSelector = [
 const STYLE_RULES = [
   `${cursorSelector} {cursor: text;}`,
   '.monaco-workbench.vs-dark .part.editor .content.empty .watermark.watermark dl, .monaco-workbench.vs-dark .part.editor .content.empty .watermark.watermark dt {color: rgba(0,0,0,.78);}',
+  // Settings Editor
   '.settings-editor.settings-editor .monaco-list .monaco-list-rows {color: #343435;}',
   '.settings-editor.settings-editor .monaco-list .monaco-list-row.focused {border-width: 1px;border-style:solid; border-color: #526fff;}',
   '.settings-editor.settings-editor .monaco-list .monaco-list-row.selected {color: #232325; background-color: #e3e3e5;}',
