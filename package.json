@@ -18,6 +18,14 @@
   "categories": [
     "Themes"
   ],
+  "icon": "screenshot.png",
+  "keywords": [
+    "theme",
+    "light editor",
+    "dark sidebar",
+    "light",
+    "dark"
+  ],
   "activationEvents": [
     "*"
   ],
