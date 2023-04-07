@@ -2,7 +2,7 @@ const path = require('path')
 
 const BASE_DIR = path.dirname(require.main.filename)
 
-const WORKBENCH_INDEX_FILE  = path.join(BASE_DIR, 'vs', 'code', 'electron-browser', 'workbench', 'workbench.html')
+const WORKBENCH_INDEX_FILE  = path.join(BASE_DIR, 'vs', 'code', 'electron-sandbox', 'workbench', 'workbench.html')
 const WORKBENCH_MAIN_JS_FILE = path.join(BASE_DIR, 'vs', 'workbench', 'workbench.desktop.main.js')
 
 const cursorSelector = [
