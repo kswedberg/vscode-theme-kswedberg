@@ -63,6 +63,9 @@
     "input.border": "#dbdbdc",
     "input.foreground": "#424243",
     "input.placeholderForeground": "#42424399",
+
+    "keybindingLabel.foreground": "#0f172a",
+    "keybindingLabel.background": "#e5e7eb",
     "list.activeSelectionBackground": "#f2f2f9",
     "list.activeSelectionForeground": "#526fff",
     "list.filterMatchBackground": "#00ffff33",
@@ -122,13 +125,16 @@
     "tab.border": "#010107",
     "tab.inactiveBackground": "#21252b",
     "terminal.background": "#010103",
-    "textCodeBlock.background": "#00000023",
+    "textCodeBlock.background": "#eaeaeb",
+    "textPreformat.foreground": "#0f172a",
     "titleBar.activeBackground": "#333842",
     "titleBar.activeForeground": "#f2f2f9",
     "titleBar.inactiveBackground": "#636872",
     "titleBar.inactiveForeground": "#c2c2c9",
     "walkThrough.embeddedEditorBackground": "#e3e3e4",
-    "welcomePage.background": "#fff"
+    "welcomePage.background": "#fff",
+    "welcomePage.tileBackground": "#d7dae0",
+    "welcomePage.tileHoverBackground": "#eaeaeb"
   },
   "tokenColors": [
     {

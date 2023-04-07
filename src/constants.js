@@ -20,6 +20,7 @@ const STYLE_RULES = [
   '.monaco-workbench.vs-dark .part.editor .content.empty .watermark.watermark dl, .monaco-workbench.vs-dark .part.editor .content.empty .watermark.watermark dt {color: rgba(0,0,0,.78);}',
   // Copilot
   // '.monaco-editor.monaco-editor [class*=ghost-text], .monaco-editor.monaco-editor [class*=ghost-text] ~ span {color: inherit !important;}',
+
   // Settings Editor
   '.settings-editor.settings-editor .monaco-list .monaco-list-rows {color: #343435;}',
   '.settings-editor.settings-editor .monaco-list .monaco-list-row.focused {border-width: 1px;border-style:solid; border-color: #526fff;}',
@@ -27,6 +28,9 @@ const STYLE_RULES = [
   '.settings-editor.settings-editor > .settings-body > .settings-tree-container .setting-item-contents .setting-item-description {color: #343435;}',
   '.settings-editor.settings-editor .monaco-list.monaco-list:not(.drop-target) .monaco-list-row:hover:not(.selected):not(.focused) {background-color: #d9d9da;border-color: #d9d9da;}',
   '.settings-editor.settings-editor > .settings-body > .settings-tree-container .setting-item-label {color: #555;}',
+
+  // Code blocks in extension readmes
+  '.vscode-dark.vscode-dark pre {background-color: #e3e3e5;}'
 ];
 
 module.exports = {
