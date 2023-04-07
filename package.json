@@ -3,7 +3,7 @@
   "displayName": "Dark and Light Theme",
   "description": "An attempt to make a VS Code theme with light editor but dark UI features",
   "publisher": "kswedberg",
-  "version": "0.3.10",
+  "version": "0.3.11",
   "engines": {
     "vscode": "^1.37.0"
   },
